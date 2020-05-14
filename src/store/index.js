@@ -22,7 +22,7 @@ const store = new Vuex.Store({
     getLocalStorage(state) {
       state.follow = func.localFollow.get() || []
       state.bgSrc = func.localBgSrc.get() || ''
-      state.volume = func.localVolume.get() || ''
+      state.volumeValue = func.localVolume.get() || ''
       state.collect = func.localCollect.get() || []
     },
     setNum(state) {
